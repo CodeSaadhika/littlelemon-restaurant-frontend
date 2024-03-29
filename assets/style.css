@@ -15,6 +15,7 @@ header > img{
     display: block;
     margin-left: auto;
     margin-right: auto;
+    width:350px;
 }
 nav{
     padding-top: 1px;
@@ -24,22 +25,20 @@ nav{
     border-radius: 3rem;
 }
 nav ul{
+    display: flex;
     list-style: none;
-    text-align:center;
+    justify-content: space-evenly;
+    align-items: center;
 }
 nav a{
     text-decoration: none;
     color: white;
-    margin-left: 100px;
-    font-size: 1.3rem;
+    font-size: 1.2rem;
 }
 nav a:hover{
     color: yellow;
 }
-nav li{
-    display: inline-block;
 
-}
 .main{
     background-image: url(https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/VfOsqf83SaKUbwnr1ayl9w_ea111fbfa4924d6dbf9f99dbd72bb7e1_pngtree-Food-Menu-Fare-Meal-background-photo-869492.jpg?expiry=1711756800000&hmac=hVAUyZBjxvYCicEpzJq1y9sqXCi4K3DLmow2fzoUpoE);
     padding: 10px 40px;
@@ -97,4 +96,45 @@ footer hr{
 footer p{
     margin-left: 50%;
     font-weight: 600;
+}
+@media(max-width: 580px) {
+    header > img{
+        display: flex;
+        width:250px;
+    }
+    nav{
+        background-color:rgb(96, 96, 99) ;
+    }
+    nav a:hover{
+        color:black;
+    }
+    nav ul{
+        display: block;
+        margin-left: 100px;
+    }
+    nav li{
+        margin-top: 20px;
+    }
+    section{
+        display:block;
+    }
+    article{
+        margin-top:20px;
+    }
+    footer {
+        display: block;
+    }
+
+    footer hr{
+        padding: 1px;
+        width: 320px;
+        background-color: rgb(76, 75, 75);
+    }
+    footer img{
+        margin-bottom: 20px;
+    }
+    footer p{
+        margin-left: 80px;
+        font-weight: 600;
+    }
 }
