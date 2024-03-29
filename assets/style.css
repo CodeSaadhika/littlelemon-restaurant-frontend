@@ -1,5 +1,4 @@
 body{
-    font-family: 'Markazi text' , serif;
     background-color: #EDEFEE;
     margin-top: 3rem;
     margin-bottom: 3rem;
@@ -18,8 +17,8 @@ header > img{
     margin-right: auto;
 }
 nav{
-    padding-top: 3px;
-    padding-bottom: 3px;
+    padding-top: 1px;
+    padding-bottom: 1px;
     background-color: rgb(13, 13, 13);
     margin-top: 2rem;
     border-radius: 3rem;
@@ -31,7 +30,7 @@ nav ul{
 nav a{
     text-decoration: none;
     color: white;
-    margin-left: 35px;
+    margin-left: 100px;
     font-size: 1.3rem;
 }
 nav a:hover{
@@ -41,15 +40,61 @@ nav li{
     display: inline-block;
 
 }
+.main{
+    background-image: url(https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/VfOsqf83SaKUbwnr1ayl9w_ea111fbfa4924d6dbf9f99dbd72bb7e1_pngtree-Food-Menu-Fare-Meal-background-photo-869492.jpg?expiry=1711756800000&hmac=hVAUyZBjxvYCicEpzJq1y9sqXCi4K3DLmow2fzoUpoE);
+    padding: 10px 40px;
+    color: aliceblue;
+    border-radius: 1rem;
+    text-align: center;
+    margin-bottom: 40px;
+}
+section a{
+    color: blue;
+}
 section{
     display:flex;
+    gap: 2rem 1rem;
 }
 article{
     flex:1;
+    margin: 1rem;
+    text-align: center;
+}
+.first:hover{
+    border: 2px solid transparent;
+    padding: 20px;
+    margin: 0;
+    background-color: rgba(223, 176, 158, 0.603);
+    color: black;
+    text-align: center;
+}
+.second:hover{
+    border: 2px solid transparent;
+    padding: 20px;
+    margin: 0;
+    background-color:  rgba(223, 176, 158, 0.603);
+    color: black;
+    text-align: center;
+}
+.third:hover{
+    border: 2px solid transparent;
+    padding: 20px;
+    margin: 0;
+    background-color: rgba(223, 176, 158, 0.603);
+    color: black;
+    text-align: center;
 }
 footer{
     display: flex;
+    margin: 5rem 4%;
+    justify-content: space-between;
 }
-footer div{
-    flex: 1;
+footer hr{
+    padding: 1px;
+    width: 400px;
+    background-color: rgb(76, 75, 75);
+}
+footer p{
+    margin-left: 50%;
+    font-weight: 600;
 }
