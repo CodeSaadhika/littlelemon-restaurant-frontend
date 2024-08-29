@@ -1,21 +1,5 @@
 /* update style with CSS grid */
 
-.Navbar {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-
-.Navbar-logo {
-    width: 20rem;
-    padding: 1rem;
-}
-
-.Navbar-logo * {
-    max-width: 100%;
-    display: block;
-}
-
 .Navbar-items {
     display: flex;
     justify-content: space-between;
@@ -24,7 +8,7 @@
 }
 
 .Navbar-item > a, .Navbar-item > a:visited {
-    color: #495e57;
+    color: var(--primary-color);
     text-decoration: none;
     font-weight: 500;
 }
