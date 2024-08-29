@@ -1,0 +1,17 @@
+/* Update using CSS grid */
+
+.Header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.Header-logo {
+    width: 20rem;
+    padding: 1rem;
+}
+
+.Header-logo * {
+    max-width: 100%;
+    display: block;
+}

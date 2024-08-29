@@ -1,0 +1,34 @@
+/* update style with CSS grid */
+
+.Navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.Navbar-logo {
+    width: 20rem;
+    padding: 1rem;
+}
+
+.Navbar-logo * {
+    max-width: 100%;
+    display: block;
+}
+
+.Navbar-items {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    width: 30rem;
+}
+
+.Navbar-item > a, .Navbar-item > a:visited {
+    color: #495e57;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.Navbar-item:hover {
+    text-decoration: underline;
+}
