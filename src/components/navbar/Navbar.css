@@ -13,6 +13,6 @@
     font-weight: 500;
 }
 
-.Navbar-item:hover {
+.Navbar-item:hover, .Navbar-item > .active {
     text-decoration: underline;
 }
