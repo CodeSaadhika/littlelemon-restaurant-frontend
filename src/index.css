@@ -1,3 +1,18 @@
+:root {
+  --primary-color: #495e57;
+  --primary-color-2: #f4ce14;
+  --secondary-color: #EE9972;
+  --secondary-color-2: #FBDABB;
+  --tertiary-color: #EDEFEE;
+  --tertiary-color-2: #333333;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -8,6 +23,17 @@ body {
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+
+.container {
+  max-width: 1330px;
+  width: 80%;
+  margin: auto;
+}
+
+.row {
+  display: grid;
+  width: 100%;
+  margin: 1.25rem 0;
 }
