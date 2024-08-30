@@ -78,8 +78,8 @@ code {
 }
 
 .col-8 {
-  max-width: 11.5625rem;
-  width: 66.6666667;
+  max-width: 51.25rem;
+  width: 61.6541353%;
 }
 
 .col-9 {
@@ -158,6 +158,7 @@ span {
   width: 100%;
   border: unset;
   padding: 1rem;
+  display: block;
   margin: .5rem 0;
   font-weight: bold;
   font-size: 1.25rem;
@@ -194,6 +195,12 @@ span {
 .button--tertiary:hover {
   color: var(--secondary-color);
   background-color: var(--tertiary-color-2);
+}
+
+.button--regular {
+  color: #FFF;
+  background-color: #000;
+  border-radius: 0;
 }
 
 /* Form styles */
