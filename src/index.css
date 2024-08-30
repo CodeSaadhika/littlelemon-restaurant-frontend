@@ -144,3 +144,101 @@ span {
   font-size: inherit;
   margin: inherit;
 }
+
+/* Design elements */
+.flex-column {
+  flex-direction: column;
+}
+
+.img {
+  max-width: 100%;
+}
+
+.button {
+  width: 100%;
+  border: unset;
+  padding: 1rem;
+  margin: .5rem 0;
+  font-weight: bold;
+  font-size: 1.25rem;
+  text-align: center;
+  border-radius: 1rem;
+  text-decoration: none;
+}
+
+.button--primary {
+  background-color: var(--primary-color);
+  color: var(--tertiary-color);
+}
+
+.button--primary:hover {
+  color: var(--tertiary-color-2);
+  background-color: var(--primary-color-2);
+}
+
+.button--secondary {
+  color: var(--tertiary-color-2);
+  background-color: var(--primary-color-2);
+}
+
+.button--secondary:hover {
+  background-color: var(--primary-color);
+  color: var(--tertiary-color);
+}
+
+.button--tertiary {
+  background-color: var(--secondary-color);
+  color: var(--tertiary-color-2);
+}
+
+.button--tertiary:hover {
+  color: var(--secondary-color);
+  background-color: var(--tertiary-color-2);
+}
+
+/* Form styles */
+.form-group {
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  margin: 0;
+}
+
+form {
+  display: grid;
+  max-width: 100%;
+  gap: 1.25rem;
+}
+
+input, label, select {
+  display: block;
+  width: 100%;
+}
+
+input, select {
+  border-width: 1px;
+  padding: .5rem 1rem;
+  border-radius: .25rem;
+  font-size: 1rem;
+}
+
+input[type="date" i] {
+  font-family: unset;
+  line-height: 1;
+}
+
+label {
+  margin: .5rem 0;
+}
+
+ul.inline-list {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+}
+
+ul.inline-list > li.inline-list-item {
+  margin-right: 1rem;
+  padding: .25rem 1rem;
+}
