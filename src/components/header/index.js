@@ -6,9 +6,11 @@ import Navbar from "../navbar";
 
 export default function Header(props) {
   return (<header className="container Header">
-    <div className="Header-logo">
-      <a href="/"><img src="/images/logo.jpg" alt="Little Lemon" /></a>
+    <div class="row" >
+      <div className="col-4 Header-logo">
+        <a href="/"><img src="/images/logo.jpg" alt="Little Lemon" /></a>
+      </div>
+      <Navbar />
     </div>
-    <Navbar />
-  </header>);
+  </header >);
 }

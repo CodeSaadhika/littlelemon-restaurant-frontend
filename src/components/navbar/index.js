@@ -5,7 +5,7 @@ import './Navbar.css';
 
 export default function Navbar() {
   return (
-    <nav className='Navbar'>
+    <nav className='col-6 Navbar'>
       <ul className="Navbar-items">
         <li className="Navbar-item"><NavLink to='/' end>Home</NavLink></li>
         <li className="Navbar-item"><NavLink to='/about'>About</NavLink></li>
