@@ -5,6 +5,7 @@
   --secondary-color-2: #FBDABB;
   --tertiary-color: #EDEFEE;
   --tertiary-color-2: #333333;
+  font-size: 16px;
 }
 
 * {
@@ -32,8 +33,75 @@ code {
   margin: auto;
 }
 
+/* Layout grid */
 .row {
-  display: grid;
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-between;
   width: 100%;
   margin: 1.25rem 0;
+}
+
+.col-1 {
+  max-width: 5.78125rem;
+  width: 8.3333333%;
+}
+
+.col-2 {
+  max-width: 11.5625rem;
+  width: 16.6666667%;
+}
+
+.col-3 {
+  max-width: 17.34375rem;
+  width: 25%;
+}
+
+.col-4 {
+  max-width: 26.4583333rem;
+  width: 33.3333333%;
+}
+
+.col-5 {
+  max-width: 33.0729167rem;
+  width: 41.6666667%;
+}
+
+.col-6 {
+  max-width: 40.9375rem;
+  width: 50%;
+}
+
+.col-7 {
+  max-width: 44.1145833rem;
+  width: 58.3333333%;
+}
+
+.col-8 {
+  max-width: 11.5625rem;
+  width: 66.6666667;
+}
+
+.col-9 {
+  max-width: 58.59375rem;
+  width: 75%;
+}
+
+.col-10 {
+  max-width: 59.53125rem;
+  width: 83.3333333%;
+}
+
+.col-11 {
+  max-width: 75.0520833rem;
+  width: 91.6666667%;
+}
+
+.col-12 {
+  max-width: 83.125rem;
+  width: 100%;
+}
+
+.col-* {
+  margin: 0 1.25rem 0 0;
 }
