@@ -1,0 +1,53 @@
+.Herobanner {
+    width: 100%;
+    background-color: var(--primary-color);
+    height: 30rem;
+}
+
+.Herobanner-content {
+    gap: 1.25rem;
+    margin: 2.5rem 16.6666667%;
+    width: 100%;
+    justify-content: start;
+}
+
+.Herobanner-text {
+    margin: 0;
+    align-items: start;
+    justify-content: space-between;
+}
+
+.Herobanner-text > .flex-column {
+    margin: 0;
+    height: 60%;
+    align-items: start;
+    justify-content: space-between;
+}
+
+.Herobanner-text h1 {
+    color: var(--primary-color-2);
+    margin: 0;
+}
+
+.Herobanner-text h2 {
+    color: var(--secondary-color);
+}
+
+.Herobanner-cta {
+    margin: 0;
+}
+
+.Herobanner-image {
+    position: relative;
+    max-width: max-content;
+    border-radius: .25rem;
+    overflow: hidden;
+}
+
+.Herobanner-image > .img {
+    max-height: 100%;
+}
+
+.Herobanner-content > * {
+    height: 25rem;
+}
