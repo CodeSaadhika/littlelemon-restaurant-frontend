@@ -4,14 +4,12 @@
     justify-content: space-between;
 }
 
-.Header > .row {
-    justify-content: start;
-    margin: 1.25rem auto;
+.Header .row {
+    margin: .5rem 0;
 }
 
 .Header-logo {
     width: 10rem;
-    margin-left: 16.6666667%;
 }
 
 .Header-logo * {
