@@ -1,0 +1,75 @@
+{
+    "global": {
+        "header":{
+        "logo":{
+            "image":"/images/logo.jpg",
+            "alt":"Little Lemon Restaurant"
+        },
+        "navigation":[
+            {
+            "label":"Home",
+            "link":"/"
+            },
+            {
+            "label":"About",
+            "link":"/about"
+            },
+            {
+            "label":"Menu",
+            "link":"/menu"
+            },
+            {
+            "label":"Reservations",
+            "link":"/booking"
+            },
+            {
+            "label":"Order Online",
+            "link":"/order-online"
+            },
+            {
+            "label":"Login",
+            "link":"/"
+            }
+        ]
+        },
+        "footer": {}
+    },
+    "dishes": [
+        {
+            "id": 1,
+            "name": "Bruschetta",
+            "image": "/images/bruchetta.jpg",
+            "price": "12.99",
+            "description": "Our Bruschetta is made from grilled bread which is smeared with garlic and seasoned with salt and olive oil. Topped with chopped tomatoes, oregano, and fresh bazil "
+        },
+        {
+            "id": 1,
+            "name": "Bruschetta",
+            "image": "/images/bruchetta.jpg",
+            "price": "12.99",
+            "description": "Our Bruschetta is made from grilled bread which is smeared with garlic and seasoned with salt and olive oil. Topped with chopped tomatoes, oregano, and fresh bazil "
+        },
+        {
+            "id": 1,
+            "name": "Bruschetta",
+            "image": "/images/bruchetta.jpg",
+            "price": "12.99",
+            "description": "Our Bruschetta is made from grilled bread which is smeared with garlic and seasoned with salt and olive oil. Topped with chopped tomatoes, oregano, and fresh bazil "
+        },
+        {
+            "id": 1,
+            "name": "Bruschetta",
+            "image": "/images/bruchetta.jpg",
+            "price": "12.99",
+            "description": "Our Bruschetta is made from grilled bread which is smeared with garlic and seasoned with salt and olive oil. Topped with chopped tomatoes, oregano, and fresh bazil "
+        }
+    ],
+    "home": {
+        "specials": {
+            "header": {
+                "text": "Specials",
+                "ctaLabel": "Order Online"
+            }
+        }
+    }
+}

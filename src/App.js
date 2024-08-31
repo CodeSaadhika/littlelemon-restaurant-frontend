@@ -11,19 +11,22 @@ import OrderOnline from './components/onlineOrder';
 import BookingPage from './components/reservations';
 import Login from './components/login';
 
+import DATA from './data/data.json';
+
 function App() {
   return (
     <div className='App'>
-      <Header />
+      <Header header={DATA.global.header} />
       <Routes>
-        <Route path='/' element={<Homepage />}/>
-        <Route path='/about' element={<Aboutpage />}/>
+        <Route path='/' element={<Homepage home={DATA.home} dishes={DATA.dishes} /> }/>
+        <Route path='/about' element={<Aboutpage /> }/>
         <Route path='/menu' element={<Menu />} />
+        <Route path='/menu/:id' element={<Menu />} />
         <Route path='/booking' element={<BookingPage />} />
-        <Route path='/order-online' element={<OrderOnline />}/>
+        <Route path='/order-online' element={<OrderOnline /> }/>
         <Route path='/login' element={<Login />} />
       </Routes>
-      <Footer />
+      <Footer footer={DATA.global.footer} />
     </div>
   );
 }
