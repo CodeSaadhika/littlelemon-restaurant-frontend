@@ -3,7 +3,7 @@
   --primary-color-2: #f4ce14;
   --secondary-color: #EE9972;
   --secondary-color-2: #FBDABB;
-  --tertiary-color: #EDEFEE;
+  --tertiary-color: #edefee;
   --tertiary-color-2: #333333;
   font-size: 16px;
 }
@@ -21,10 +21,34 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+
+/* scrollbar */
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+
+::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.3);
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.5);
+}
+
+::-webkit-scrollbar-thumb:window-inactive {
+  background: rgba(255, 255, 255, 0.3);
 }
 
 .container {
@@ -44,12 +68,12 @@ code {
 
 .col-1 {
   max-width: 5.78125rem;
-  width: 8.3333333%;
+  min-width: 8.3333333%;
 }
 
 .col-2 {
   max-width: 11.5625rem;
-  width: 16.6666667%;
+  min-width: 16.6666667%;
 }
 
 .col-3 {
@@ -59,12 +83,12 @@ code {
 
 .col-4 {
   max-width: 26.4583333rem;
-  width: 33.3333333%;
+  min-width: 33.3333333%;
 }
 
 .col-5 {
   max-width: 33.0729167rem;
-  width: 41.6666667%;
+  min-width: 41.6666667%;
 }
 
 .col-6 {
@@ -74,36 +98,40 @@ code {
 
 .col-7 {
   max-width: 44.1145833rem;
-  width: 58.3333333%;
+  min-width: 58.3333333%;
 }
 
 .col-8 {
   max-width: 51.25rem;
-  width: 61.6541353%;
+  min-width: 61.6541353%;
 }
 
 .col-9 {
   max-width: 58.59375rem;
-  width: 75%;
+  min-width: 75%;
 }
 
 .col-10 {
   max-width: 59.53125rem;
-  width: 83.3333333%;
+  min-width: 83.3333333%;
 }
 
 .col-11 {
   max-width: 75.0520833rem;
-  width: 91.6666667%;
+  min-width: 91.6666667%;
 }
 
 .col-12 {
   max-width: 83.125rem;
-  width: 100%;
+  min-width: 100%;
 }
 
 .col-* {
   margin: 0 1.25rem 0 0;
+}
+
+.m-2 {
+  margin: 0 16.6666667%;
 }
 
 /* Typography */
@@ -143,6 +171,10 @@ p {
 span {
   font-size: inherit;
   margin: inherit;
+}
+
+section {
+  margin-bottom: 5rem;
 }
 
 /* Design elements */
