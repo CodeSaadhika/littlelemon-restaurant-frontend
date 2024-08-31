@@ -1,0 +1,24 @@
+.Specials-header h3 {
+    position: relative;
+    color: var(--primary-color);
+}
+.Specials-header h3::after {
+    background: var(--primary-color-2);
+    background: linear-gradient(to right, transparent 0, var(--primary-color-2) 5%, transparent 100%);
+    content: "";
+    position: absolute;
+    bottom: -0.125rem;
+    left: 0;
+    height: .25rem;
+    width: 100%;
+ }
+
+.Specials-content {
+    gap: 2.5rem;
+    overflow-x: scroll;
+    padding: 1rem .5rem;
+}
+
+.Specials-content::-webkit-scrollbar {
+    display: none;
+}
