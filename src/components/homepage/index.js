@@ -15,7 +15,7 @@ export default function Homepage({ home, dishes }) {
         <main className="Homepage">
             <Hero />
             <Specials specials={home.specials} dishes={dishes} />
-            <CustomersSay />
+            <CustomersSay testimonials={home.testimonials} />
             <Chicago />
         </main>
     );

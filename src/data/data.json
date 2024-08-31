@@ -70,6 +70,37 @@
                 "text": "Specials",
                 "ctaLabel": "Order Online"
             }
+        },
+        "testimonials": {
+            "header": {
+                "title": "Testimonials"
+            },
+            "testimonials": [
+                {
+                    "rating": 4.5,
+                    "name": "Priyanshu Maurya",
+                    "image": "/images/lemon-favicon.png",
+                    "review": "Fantastic!"
+                },
+                {
+                    "rating": 4.9,
+                    "name": "P M",
+                    "image": "/images/lemon-favicon.png",
+                    "review": "Lipsmackin!!"
+                },
+                {
+                    "rating": 4.7,
+                    "name": "Satya Saadhika",
+                    "image": "/images/lemon-favicon.png",
+                    "review": "Mouthwatering!!"
+                },
+                {
+                    "rating": 5.0,
+                    "name": "Satyasaadhika",
+                    "image": "/images/lemon-favicon.png",
+                    "review": "Heavenly!!"
+                }
+            ]
         }
     }
 }

@@ -1,0 +1,24 @@
+.CustomersSay {
+    margin-bottom: 5rem;
+}
+
+.CustomersSay .row {
+    margin: 0;
+    gap: 1rem;
+}
+
+.CustomersSay-rating {
+    width: fit-content;
+    margin: 1rem 0;
+}
+
+.CustomersSay-rating-stars {
+    background: var(--primary-color-2);
+    border-radius: .25rem;
+}
+
+.CustomersSay-rating img {
+    display: inline;
+    max-width: 1rem;
+    filter: invert(1);
+}

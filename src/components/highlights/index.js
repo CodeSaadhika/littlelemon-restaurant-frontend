@@ -15,7 +15,7 @@ export default function Specials({ specials, dishes }) {
                 <div className="col-8 m-2">
                     <header className="row Specials-header">
                         <h3>{specials.header.text}</h3>
-                        <div className="col-">
+                        <div>
                             <NavLink to="/order-online" className="button button--primary">{specials.header.ctaLabel}</NavLink>
                         </div>
                     </header>
