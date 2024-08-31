@@ -2,7 +2,7 @@
 import React from "react";
 
 // styles import
-import './Home.css';
+import './Homepage.css';
 
 // component imports
 import Hero from "../hero";
@@ -10,12 +10,11 @@ import Specials from "../highlights";
 import CustomersSay from "../testimonials";
 import Chicago from "../about";
 
-export default function Home(props) {
-    console.log(props);
-    return(
-        <main className="Home">
+export default function Homepage({ home, dishes }) {
+    return (
+        <main className="Homepage">
             <Hero />
-            <Specials />
+            <Specials specials={home.specials} dishes={dishes} />
             <CustomersSay />
             <Chicago />
         </main>
